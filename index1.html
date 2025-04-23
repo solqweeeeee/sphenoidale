@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Клиновидная кость</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #d0ecff; /* Голубой фон */
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      margin: 20px auto;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #222;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .photo-section {
+      width: 90%;
+      max-width: 400px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .photo-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .photo-section:hover img {
+      transform: scale(1.03);
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    table {
+      width: 90%;
+      max-width: 900px;
+      margin: 30px auto;
+      border-collapse: collapse;
+      font-size: 1em;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #e6e6e6;
+    }
+
+    caption {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    .students {
+      font-size: 14px;
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: left;
+    }
+
+    @media (max-width: 768px) {
+      .caption {
+        font-size: 0.9em;
+      }
+
+      table {
+        font-size: 0.9em;
+      }
+
+      .students {
+        font-size: 13px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Сына тәрізді сүйек</h1>
+  </header>
+
+  <div class="gallery">
+    <div class="photo-section">
+      <img src="клиновидная1.jpg" alt="Фото 1">
+      <div class="caption">Алдыңғы көрініс</div>
+    </div>
+
+ <table>
+    <caption>Алдыңғы көрініс анатомиясы</caption>
+    <tr>
+      <th>№</th>
+      <th>Латинский</th>
+      <th>Русский</th>
+      <th>Қазақша</th>
+    </tr>
+    <tr><td>1</td><td>corpus ossis sphenoidalis</td><td>тело клиновидной кости</td><td>клиновид сүйегінің денесі</td></tr>
+    <tr><td>2</td><td>dorsum sellae</td><td>спинка турецкого седла</td><td>түрік ершігінің арқасы</td></tr>
+    <tr><td>3</td><td>ala minor</td><td>малое крыло</td><td>кіші қанат</td></tr>
+    <tr><td>4</td><td>fissura orbitalis superior</td><td>верхняя глазничная щель</td><td>жоғарғы көзұя саңылауы</td></tr>
+    <tr><td>5</td><td>ala major</td><td>большое крыло</td><td>үлкен қанат</td></tr>
+    <tr><td>6</td><td>foramen rotundum</td><td>круглое отверстие</td><td>дөңгелек тесігі</td></tr>
+    <tr><td>7</td><td>canalis pterygoideus</td><td>крыловидный канал</td><td>қанаттәрізді өзек</td></tr>
+    <tr><td>8</td><td>processus pterygoideus</td><td>крыловидный отросток</td><td>қанаттәрізді өсінді</td></tr>
+  </table>
+
+
+    <div class="photo-section">
+      <img src="клиновидная2.jpg" alt="Фото 2">
+      <div class="caption">Артқы көрініс</div>
+    </div>
+  </div>
+
+ 
+  <table>
+    <caption>Артқы көрініс анатомиясы</caption>
+    <tr>
+      <th>№</th>
+      <th>Латинский</th>
+      <th>Русский</th>
+      <th>Қазақша</th>
+    </tr>
+    <tr><td>1</td><td>ala minor</td><td>малое крыло</td><td>кіші қанат</td></tr>
+    <tr><td>2</td><td>ala major</td><td>большое крыло</td><td>үлкен қанат</td></tr>
+    <tr><td>3</td><td>facies orbitalis</td><td>глазничная поверхность</td><td>көзұя беті</td></tr>
+    <tr><td>4</td><td>facies temporalis</td><td>височная поверхность</td><td>самай беті</td></tr>
+    <tr><td>5</td><td>apertura sinus sphenoidalis</td><td>отверстие клиновидной пазухи</td><td>клиновидті қойнаудың тесігі</td></tr>
+    <tr><td>6</td><td>lamina lateralis</td><td>латеральная пластинка</td><td>латералды табақша</td></tr>
+    <tr><td>7</td><td>lamina medialis</td><td>медиальная пластинка</td><td>медиалды табақша</td></tr>
+    <tr><td>8</td><td>processus pterygoideus</td><td>крыловидный отросток</td><td>қанаттәрізді өсінді</td></tr>
+  </table>
+</body>
+</html>
